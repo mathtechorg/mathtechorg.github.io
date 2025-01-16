@@ -1,0 +1,20 @@
+# /_data/authors.yml
+
+Oscar Levin:
+  name        : "Oscar Levin"
+  bio         : "Oscar Levin is a professor of mathematical sciences at the University of Northern Colorado. He is the author of the book OER book *Discrete Mathematics: an Open Introduction* and contributor to the PreTeXt authoring system."
+  avatar      : "/assets/images/bio-levin.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:oscar.levin@unco.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://math.oscarlevin.com"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/oscarlevin.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/oscarlevin"
+
