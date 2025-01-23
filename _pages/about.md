@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-MathTech.org is a news feed for showcasing new developments in technology
+MathTech.org is a news feed for showcasing and advocating for technology
 supporting mathematics education and communication.
 
 Its current editors are 
