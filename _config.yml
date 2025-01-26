@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "MathTech.org"
   avatar : "/assets/images/mathtechorg-avatar.svg"
-  bio    : "A community of mathematicians using and creating open-source technologies to innovate mathematics education."
+  bio    : "Showcasing open-source technologies that innovate mathematics education and communication."
   links:
     - label: "Bluesky"
       icon: "fab fa-brands fa-bluesky"
