@@ -18,3 +18,22 @@ Oscar Levin:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/oscarlevin"
 
+Steven Clontz:
+  name        : "Steven Clontz"
+  bio         : "Steven Clontz is an associate professor of mathematics at the University of South Alabama."
+  avatar      : "/assets/images/bio-clontz.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:steven.clontz@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://clontz.org"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/clontz.org"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/stevenclontz"
+
+
