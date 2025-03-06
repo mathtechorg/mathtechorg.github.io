@@ -36,4 +36,22 @@ Steven Clontz:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/stevenclontz"
 
+Tien Chih:
+  name        : "Tien Chih"
+  bio         : "Tien Chih is an assistant professor of mathematics at Oxford College of Emory University."
+  #avatar      : "/assets/images/bio-clontz.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tien.chih@emory.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://tienchih.github.io"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/tienchihmath.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tienchih"
+
 
