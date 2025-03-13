@@ -1,6 +1,6 @@
 ---
 title: Before Class with PreTeXt
-tags: PreTeXt, Runestone, teaching
+tags: PreTeXt Runestone Teaching
 author: Chrissy Safranski
 ---
 
