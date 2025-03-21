@@ -17,10 +17,11 @@ title: MathTech.org
 email: oscar.levin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Showcasing open-source technologies that innovate mathematics education and communication.
-twitter_username:
 github_username: mathtechorg
 minimal_mistakes_skin: dark
 search: true
+repository: mathtechorg/mathtechorg.github.io
+
 
 # Build settings
 markdown: kramdown
@@ -55,6 +56,18 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+# Comments via giscus
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : R_kgDONTDaqg # Shown during giscus setup at https://giscus.app
+    category_name        : Post Comments # Full text name of the category
+    category_id          : DIC_kwDONTDaqs4CoUUf # Shown during giscus setup at https://giscus.app
+    discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    theme                : dark_dimmed # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
 
 author:
   name   : "MathTech.org"
