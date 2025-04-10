@@ -1,6 +1,8 @@
 ---
 title: Accessible Course Materials
-tags: PreTeXt, accessibility, course-materials
+tags: PreTeXt, accessibility, course-materials, videos
+toc: true
+toc-sticky: true
 author: Oscar Levin
 ---
 
@@ -68,7 +70,7 @@ Whatever tool you choose, there are some aspects of accessibility that will stil
 
 Unfortunately, there simply is no automated way to make this happen.  Even AI tools that claim to be able to write image descriptions (alt text) have no way to understand the *intent* of the images.  Suppose you include a graph of a parabola, opening upward with its vertex at the point (2,1).  That is, a graph of the parabola $y = (x-1)^2 + 2$.  Okay, both of those sentences could be perfectly reasonable descriptions for the image.  Which do you choose?  Is the graph part of a question asking students to find the coordinates of the vertex?  Is it a question asking students to find an equation for the graph?
 
-For a more detailed discussion about writing alt text for images, check out the[advice for writing image descriptions](https://pretextbook.org/doc/guide/html/topic-accessibility.html#subsec-img-desc-advice) in the PreTeXt guide.
+For a more detailed discussion about writing alt text for images, check out the [advice for writing image descriptions](https://pretextbook.org/doc/guide/html/topic-accessibility.html#subsec-img-desc-advice) in the PreTeXt guide.
 
 Another consideration is the quality of the images themselves.  For example, avoid using just color to distinguish between elements: don't ask students to compare the red and green curves in the graph when they might not be able to distinguish between the colors.  Instead, ensure that one graph is also bold, or dashed.  Try viewing your images in black and white; do they still make sense?
 
