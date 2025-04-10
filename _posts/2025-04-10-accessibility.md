@@ -2,7 +2,7 @@
 title: Accessible Course Materials
 tags: PreTeXt, accessibility, course-materials, videos
 toc: true
-toc-sticky: true
+toc_sticky: true
 author: Oscar Levin
 ---
 
