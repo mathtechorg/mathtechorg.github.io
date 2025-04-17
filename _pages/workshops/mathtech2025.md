@@ -14,9 +14,16 @@ Join the MathTech.org team for four days of exploration of how PreTeXt can help 
 
 **Cost**: Free
 
-**Registration**: Complete this [registration form](https://forms.gle/5m3KLgTYSVxZKAxy9)
+**Registration**: Complete this [registration form](https://forms.gle/5m3KLgTYSVxZKAxy9).
 
 ### Workshop content
 
-Coming soon.
+Sessions on Monday and Wednesday will consist of tutorials on
 
+- Creating a new pretext project for course materials using GitHub Codespaces.
+- Writing course content in PreTeXt and building to web and print formats.
+- Creating activities (worksheets).
+- Strategies to include course content in your LMS.
+- Adding interactive content, including demonstrations and (self) assessments.
+
+Tuesday and Thursday sessions will be open office-hour time.  Come with questions and we will help.
