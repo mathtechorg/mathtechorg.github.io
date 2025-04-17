@@ -24,6 +24,7 @@ Sessions on Monday and Wednesday will consist of tutorials on
 - Writing course content in PreTeXt and building to web and print formats.
 - Creating activities (worksheets).
 - Strategies to include course content in your LMS.
+- Strategies for converting existing materials to PreTeXt.
 - Adding interactive content, including demonstrations and (self) assessments.
 
 Tuesday and Thursday sessions will be open office-hour time.  Come with questions and we will help.
