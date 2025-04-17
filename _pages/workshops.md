@@ -8,13 +8,13 @@ There is so much to learn, and so many opportunities to learn it.  Below we coll
 
 ## Upcoming
 
-### MathTech Virtual PreTeXt workshop
+### Virtual Workshop: Accessible Course Materials with PreTeXt
 
 **Monday May 19 - Thursday May 22, 2025**. Virtual.
 
-Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  We will meet on zoom for 2 hours each day for a mix of instruction and "office-hours" to help you get started.  
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  We will meet on zoom for 2 hours each day for a mix of tutorials and "office-hours" to help you get started writing accessible handouts, lecture notes, and more.
 
-More information, including how to register is available on the [workshop page](/workshops/mathtech2025.html).
+More information, including how to register, is available on the [workshop page](/workshops/mathtech2025.html).
 
 ### COMaT 2025 PreTeXt Workshop
 

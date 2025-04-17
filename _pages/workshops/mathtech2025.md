@@ -1,10 +1,10 @@
 ---
 permalink: /workshops/mathtech2025.html
-title: "MathTech 2025 PreTeXT Workshop"
+title: "Accessible Course Materials with PreTeXT Workshop"
 layout: single
 ---
 
-Join the MathTech.org team for four days of exploration of how PreTeXt can help you transform your course materials into accessible and interactive documents for your students.  
+Join the MathTech.org team for four days of exploration of how PreTeXt can help you transform your course materials (including handouts, lecture notes, and homework sets) into accessible and interactive documents for your students.  
 
 ## Workshop Details
 
@@ -20,7 +20,7 @@ Join the MathTech.org team for four days of exploration of how PreTeXt can help 
 
 Sessions on Monday and Wednesday will consist of tutorials on
 
-- Creating a new pretext project for course materials using GitHub Codespaces.
+- Creating a new PreTeXt project for course materials using only your web browser.
 - Writing course content in PreTeXt and building to web and print formats.
 - Creating activities (worksheets).
 - Strategies to include course content in your LMS.
@@ -28,3 +28,5 @@ Sessions on Monday and Wednesday will consist of tutorials on
 - Adding interactive content, including demonstrations and (self) assessments.
 
 Tuesday and Thursday sessions will be open office-hour time.  Come with questions and we will help.
+
+Contact [Oscar Levin](mailto:oscar.levin@unco.edu) for more information.
