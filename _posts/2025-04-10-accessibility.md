@@ -6,6 +6,8 @@ toc_sticky: true
 author: Oscar Levin
 ---
 
+**Update (2025-04-25)**: Added information about LaTeXML as another alternative for authoring.
+
 Recent state and federal laws in the United States have brought renewed urgency to efforts to ensure all educational content meets accessibility standards.  Many universities (especially those subject to laws affecting state and local governments) now require that all material posted online, including materials inside a Learning Management System (LMS), such as Canvas or Blackboard, are accessible.  While instructors have long been required to provide accommodations to students who have been officially given them by the university's Disability Resource Center (or similar), the requirement to meet these standards in all cases is new.
 
 While many universities are providing faculty with some support to "convert" their course materials to accessible formats, it seems like few are aware of the difficulties specific to mathematics and other STEM disciplines which rely heavily on symbolic expressions and diagrams. So it falls to us to do this work without much in the way of expert advice.  While I do not claim to be an expert in this area, I will try to collect what I have learned from colleagues about what options we have.  If anyone reading this has additional resources or suggestions, please get in touch.
@@ -48,7 +50,7 @@ You could write the entire activity inside your LMS.  Canvas does let you includ
 
 This is where tools like PreTeXt come to our rescue.  We can write our documents as plain text (similar to LaTeX) then build this source into an accessible webpage for posting online and a PDF for printing.  The conversion tool can take care of all the formatting (for both outputs) and we can focus on what we know, the content.
 
-## PreTeXt and Quarto
+## PreTeXt
 
 My preferred tool for authoring in mathematics is [PreTeXt](https://pretextbook.org).  Like LaTeX, you write your source file as plain text (in this case, XML) and then build your output.  You can transform your source into a webpage, a PDF, epub, and even Braille files.  This is all possible because the source you write uses *semantic* markup: you say exactly what sort of thing each part of the document is, whether it is a section, a theorem, or a term, for example.   This is the key information that the processor needs to build source that can be guaranteed to be accessible.
 
@@ -62,7 +64,11 @@ As an alternative to the last step, a new feature of PreTeXt allows you to creat
 
 {% include video id="1EEKthVsGoA" provider="youtube" %}
 
+## Other authoring options
+
 An alternative project that can also transform source files into multiple output formats, including webpages and PDF is [Quarto](https://quarto.org/).  I am not as familiar with this tool, although it looks quite promising.  It is definitely geared more to data science, and a few of the textbooks built with the system that I tested still had accessibility errors, but this might be due to issues with the source files for those particular project.
+
+Also worth mentioning is [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/), which can convert (some) LaTeX documents into XML and from there HTML and other formats.  This is what [arXiv](https://arxiv.org) is using to provide HTML preprints.  The challenge here is that LaTeX is so expansive that it is not possible to convert all documents correctly, but for many documents, this might be a reasonable option.
 
 ## Accessible diagrams
 
