@@ -12,7 +12,7 @@ There is so much to learn, and so many opportunities to learn it.  Below we coll
 
 **Monday May 19 - Thursday May 22, 2025**. Virtual.
 
-Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  We will meet on zoom for 2 hours each day for a mix of tutorials and "office-hours" to help you get started writing accessible handouts, lecture notes, and more.
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  We will meet on zoom for 2 hours each day for a mix of tutorials and "office-hours" to help you get started writing accessible handouts, lecture notes, and more.  Limited participation stipends are available.
 
 More information, including how to register, is available on the [workshop page](/workshops/mathtech2025.html).
 
