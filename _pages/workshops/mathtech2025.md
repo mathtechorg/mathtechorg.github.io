@@ -6,7 +6,7 @@ layout: single
 
 Join the MathTech.org team for four days of exploration of how PreTeXt can help you transform your course materials (including handouts, lecture notes, and homework sets) into accessible and interactive documents for your students.  
 
-To insentives active participation, stipends of up to $200 per participant are available (depending on number of participants and continued NSF funding).
+To incentivize active participation, stipends of up to $200 per participant are expected to be disbursed to a limited number of participants who design course materials using their training from the workshop (depending on continued NSF funding).
 
 ## Workshop Details
 
