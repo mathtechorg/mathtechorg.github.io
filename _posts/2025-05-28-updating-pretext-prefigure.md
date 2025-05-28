@@ -1,6 +1,6 @@
 ---
 title: Updating Your Version of PreTeXt and PreFigure
-tags: PreTeXt PreFigure
+tags: PreTeXt PreFigure Tutorial
 author: Chrissy Safranski
 ---
 
