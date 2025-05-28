@@ -4,7 +4,8 @@ tags: PreTeXt PreFigure
 author: Chrissy Safranski
 ---
 
-PreTeXt and PreFigure are under active development - many people are currently improving them, making them easier to use, adding new features, and fixing bugs that have been identified.  While it's awesome that the user experience is getting better all the time, it also means that users need to frequently upgrade their versions of PreTeXt and PreFigure.
+[PreTeXt](https://pretextbook.org/) and [PreFigure](https://prefigure.org/) are under active development - many people are currently improving them, making them easier to use, adding new features, and fixing bugs that have been identified.  While it's awesome that the user experience is getting better all the time, it also means that users need to frequently upgrade their versions of PreTeXt and PreFigure.
+
 
 Let's say you have been working on your PreTeXt projects, either on your local machine or using Github Codespaces.  You might notice a bug or a behavior you wish was different, or you might still be happily working.  Regardless, it would likely be helpful to regularly read the [PreTeXt-support Google Group](https://groups.google.com/g/pretext-support) and the [PROSE Discord](https://discord.gg/Uuwk3xEX).  I learn a lot from reading and monitoring what other people are talking about, and when I encounter a problem, I often find that someone else has run into the same problem before me.  Sometimes, I can chime in with additional information, or even a solution, and give back to the community in that way.
 
