@@ -42,13 +42,17 @@ Now you can type (or copy and paste the command below)
 pip install prefig --upgrade
 ```
 
+into the terminal and hit "enter."
+
 You'll see some commands running in the terminal, checking that requirements are satisfied and uninstalling the older version of PreFigure (which is called "prefig" as a program), and the last line should contain something about successfully installing prefig along with a newer version number.
 
-Lastly, to make sure you have all the updated PreTeXt files you should have in your project, run
+Lastly, to make sure you have all the updated PreTeXt files you should have in your project, type (or copy-and-paste)
 
 ```
 pretext update
 ```
+
+into the terminal and hit "enter."
 
 If you're working locally and you have multiple projects, you should do "pretext update" in each project. If you're working in Codespaces, you'll need to upgrade PreTeXt and PreFigure and run "pretext update" in each separate Codespace you have.
 
