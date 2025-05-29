@@ -14,7 +14,7 @@ While searching for a way to improve that situation and other aspects of my teac
 
 PreTeXt books, perhaps especially in conjunction with the Runestone platform, have a solution for this.  Books can be written with integrated **Reading Questions** that ask students to respond to questions based on the reading they have done.  Professors can learn from the responses to the questions what the common points of confusion or emphasis are and adapt their instruction accordingly, and they can also give a reward or incentive for the students' time and effort.
 
-[<img src="/assets/images/20250313/fcla-reading-questions.png" width="48%">](https://runestone.academy/ns/books/published/fcla/section-NM.html#readingquestions-NM) [<img src="/assets/images/20250313/dmoi-reading-questions.png" width="48%">](https://discrete.openmathbooks.org/dmoi4/sec_coloring.html#rqs-gt-coloring)
+[<img src="/assets/images/20250313/fcla-reading-questions.png" width="48%">](https://runestone.academy/ns/books/published/fcla/section-HSE.html?mode=browsing#readingquestions-HSE) [<img src="/assets/images/20250313/dmoi-reading-questions.png" width="48%">](https://discrete.openmathbooks.org/dmoi4/sec_coloring.html#rqs-gt-coloring)
 
 For some concepts or techniques which have a right or wrong answer, auto-checkable questions including **multiple choice, matching, Parson's Problems, and more** can be included.  These types of questions are especially great as part of pre-class work because students can submit an attempt, get feedback based on their submission, and then try again, thereby identifying - and quite possibly also resolving - a confusion they might have had.
 
