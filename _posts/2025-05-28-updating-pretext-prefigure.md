@@ -19,12 +19,13 @@ Upgrading PreTeXt can be done using the *Command Palette* (Ctrl+Shift+P) or by t
 
 
 In either case, keep typing enough of "Pretext: Update installed PreTeXt version" until you can see and select the command.
+If your version of PreTeXt is old enough that you don't see that command, I'll give an alternative method below. 
 
 ![picture showing greater than sign and command to select](/assets/images/20250528/greaterthansign-update-pretext.png)
 
 After typing or selecting that command, you should get a popup within a minute or so that says you successfully installed or upgraded PreTeXt.  Hurray!
 
-You may not need to use the *terminal* for much in order to use PreTeXt, but as of this writing, it is necessary to use the terminal to update PreFigure, and the terminal can be handy to use with PreTeXt as well.
+You may not need to use the *terminal* for much in order to use PreTeXt, but as of this writing, it is necessary to use the terminal to update PreFigure and the terminal can be handy to use with PreTeXt as well (including an alternate way to upgrade PreTeXt).
 
 First, if you don't see the lower panel containing the terminal you can make it visible by *toggling the panel*.
 
@@ -45,6 +46,14 @@ pip install prefig --upgrade
 into the terminal and hit "enter."
 
 You'll see some commands running in the terminal, checking that requirements are satisfied and uninstalling the older version of PreFigure (which is called "prefig" as a program), and the last line should contain something about successfully installing prefig along with a newer version number.
+
+An alternate way of upgrading your version of PreTeXt is to type or copy-and-paste
+
+```
+pip install pretext --upgrade
+```
+
+into the terminal and hit "enter."
 
 Lastly, to make sure you have all the updated PreTeXt files you should have in your project, type (or copy-and-paste)
 
