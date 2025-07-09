@@ -18,7 +18,7 @@ PreTeXt books, perhaps especially in conjunction with the Runestone platform, ha
 
 For some concepts or techniques which have a right or wrong answer, auto-checkable questions including **multiple choice, matching, Parson's Problems, and more** can be included.  These types of questions are especially great as part of pre-class work because students can submit an attempt, get feedback based on their submission, and then try again, thereby identifying - and quite possibly also resolving - a confusion they might have had.
 
-[<img align="center" src="/assets/images/20250313/seanslinalg-mult-select.png" width="48%">](https://opentext.uleth.ca/Math3410/sec-complex.html#rs-mc-normal)  [<img align="center" src="/assets/images/20250313/matrixtheory-mult-choice.png" width="48%">](https://tanaquil18.github.io/matrixtheory/sec-row-ops.html#row-ops-notation-practice)
+[<img align="center" src="/assets/images/20250313/seanslinalg-mult-select.png" width="48%">](https://opentext.uleth.ca/Math3410/sec-complex.html#rs-mc-normal)  [<img align="center" src="/assets/images/20250313/matrixtheory-mult-choice.png" width="48%">](https://tanaquil18.github.io/matrixcalculations/sec-row-ops.html#row-ops-notation-practice)
 
 [<img align="center" src="/assets/images/20250313/dmoi-parsons.png" width="48%">](https://runestone.academy/ns/books/published/dmoi-4/sec_logic-proofs.html?mode=browsing#proofs-xe-7xe) [<img align="center" src="/assets/images/20250313/samplebook-cardsortmatching.png" width="48%">](https://pretextbook.org/examples/sample-book/noparts/html/matching-exercises.html#matching-function-types)
 
