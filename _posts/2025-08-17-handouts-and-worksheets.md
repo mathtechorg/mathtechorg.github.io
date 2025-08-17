@@ -86,6 +86,8 @@ As I'm getting ready for the start of the semester, I'm thinking about how I can
 
 I might also create other course documents in PreTeXt now and put them in these divisions to make printing easier. I can use handouts for the syllabus, formula sheets, and study guides.  Worksheets would be good for in-class activities, homework sets, quizzes, and even exams.
 
+Of course, if you *do* happen to have a textbook written in PreTeXt, providing these directly in the book is an excellent use case.  The new edition of [Active Calculus](https://activecalculus.org/) has implemented worksheets for its preview activities, such as [this one](https://activecalculus.org/single2e/sec-1-3-derivative-pt.html#ws-PA-1-3).
+
 Is there a use case I'm forgetting?  Are there features you wish these division had?  Let me know in the comments below or reach out on pretext-support.
 
 
