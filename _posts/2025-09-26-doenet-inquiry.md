@@ -4,6 +4,10 @@ tags: PreTeXt Doenet Inquiry
 author: Steven Clontz
 ---
 
+*This post describes work of the author funded by National Science Foundation awards [#2011807](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2011807) and [#2449139](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2449139).*
+
+---
+
 An essential element of my [Team-Based Inquiry Learning (TBIL)](https://TBIL.org) classroom
 is that, as much as possible, students whould be discovering knowledge for themselves,
 rather than just being told.
@@ -34,7 +38,27 @@ a terribly deep question, but it's one that definitely benefits from visualizati
 
 So in
 [Activity 5.1.8 (2024 Early Edition)](https://teambasedinquirylearning.github.io/linear-algebra/2024e/GT1.html#activity-140)
-I provided such a static image:
+we provided such a static image:
 
 ![before/after of scaling a determinant](https://teambasedinquirylearning.github.io/linear-algebra/2024e/generated/latex-image/GT1-image-scaled-column-determinant.svg)
 
+Well, it's certainly better than nothing. But for all the abstraction of multiplying the base by $c$,
+that $c$ value sure looks fixed at around maybe $1.4$... Would it be nice if students could see the
+effect for many different values of $c$, or even observe the effect for the $c$ values of their choosing?
+
+Enter [Doenet](https://doenet.org/), a language and platform for authoring interactive mathematics visualizations.
+There's much to be said about Doenet (and I'm sure to do so in my future posts!), but for today
+I'm just going to focus on the end product (which, of course, is 100% open-source markup powered by
+100% open-source software). Let's see how Doenet can helped us create an interactve figure to replace
+the above static image.
+
+<iframe src="https://library.tbil.org/2025/linear-algebra/GT1-interactive-duplicate-column-if.html"></iframe>
+
+---
+
+These TBIL activities and interactives aren't trivial to always come up with alone, which is why I'm excited to work with a great
+team of collaborators at [GitHub.com/TeamBasedInquiryLearning](https://github.com/TeamBasedInquiryLearning)
+to create high-quality, free and open-source TBIL activity books for Precalculus, Calculus,
+and Linear Algebra. If you want to get involved, ping me in the
+[MathTech.org Discord](https://discord.gg/64tkJueD6G), or even better, join our
+[TBIL Zulip chat](https://tbil.zulipchat.com/)!
