@@ -50,13 +50,27 @@ Enter [Doenet](https://doenet.org/), a language and platform for authoring inter
 There's much to be said about Doenet (and I'm sure to do so in my future posts!), but for today
 I'm just going to focus on the end product (which, of course, is 100% open-source markup powered by
 100% open-source software). Let's see how Doenet can helped us create an interactve figure to replace
-the above static image.
+the above static image in [Activity 5.1.10 (2025 Edition)](https://library.tbil.org/2025/linear-algebra/GT1.html#GT1-activity-scale-column):
 
-<iframe src="https://library.tbil.org/2025/linear-algebra/GT1-interactive-duplicate-column-if.html"></iframe>
+<iframe src="https://library.tbil.org/2025/linear-algebra/GT1-interactive-scale-column-if.html"></iframe>
+
+This has worked so much better! I can send this link to my students' computers, and together they will
+move the slider, observing the original area when $c=1$, the doubled area when $c=2$, and the halved area
+when $c=0.5$! By removing the cognitive overload of visualizing various values of $c$ in their heads
+or on paper, students can dive directly into the mathematics, particularly my true goal to make them
+realize that $\operatorname{det}([c\vec{v}\hspace{0.5em} \vec{w}])=c\operatorname{det}([\vec{v}\hspace{0.5em} \vec{w}])$
+without me telling them this myself!
+
+To see how we explore the determinant's other geometrical properties using Doenet interactives, check out
+[Section 5.1 of our 2025 Edition](https://library.tbil.org/2025/linear-algebra/GT1.html)! In a future post, I'll explore
+how to create a great Doenet interactive for yourself at [Doenet.org](https://doenet.org/).
+(Or if you're inpatient, you can of course see the Doenet source for this interactive yourself
+[here on GitHub](https://github.com/TeamBasedInquiryLearning/library/blob/8988a246077a74888461faf57e8acc9292bee8a7/source/linear-algebra/source/05-GT/doenet/GT1-doenet-scale-column.xml).)
 
 ---
 
-These TBIL activities and interactives aren't trivial to always come up with alone, which is why I'm excited to work with a great
+As you probably expect,
+TBIL activities and interactives aren't trivial to always come up with alone, which is why I'm excited to work with a great
 team of collaborators at [GitHub.com/TeamBasedInquiryLearning](https://github.com/TeamBasedInquiryLearning)
 to create high-quality, free and open-source TBIL activity books for Precalculus, Calculus,
 and Linear Algebra. If you want to get involved, ping me in the
