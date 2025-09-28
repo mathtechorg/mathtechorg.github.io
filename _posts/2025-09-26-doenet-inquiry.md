@@ -52,7 +52,7 @@ I'm just going to focus on the end product (which, of course, is 100% open-sourc
 100% open-source software). Let's see how Doenet can helped us create an interactve figure to replace
 the above static image in [Activity 5.1.10 (2025 Edition)](https://library.tbil.org/2025/linear-algebra/GT1.html#GT1-activity-scale-column):
 
-<iframe src="https://library.tbil.org/2025/linear-algebra/GT1-interactive-scale-column-if.html" style="width: 100%; background-color: white; min-height: 600px;></iframe>
+<iframe src="https://library.tbil.org/2025/linear-algebra/GT1-interactive-scale-column-if.html" style="width: 100%; background-color: white; min-height: 600px;"></iframe>
 
 This has worked so much better! I can send this link to my students' computers, and together they will
 move the slider, observing the original area when $c=1$, the doubled area when $c=2$, and the halved area
@@ -76,3 +76,4 @@ to create high-quality, free and open-source TBIL activity books for Precalculus
 and Linear Algebra. If you want to get involved, ping me in the
 [MathTech.org Discord](https://discord.gg/64tkJueD6G), or even better, join our
 [TBIL Zulip chat](https://tbil.zulipchat.com/)!
+
