@@ -40,7 +40,7 @@ So in
 [Activity 5.1.8 (2024 Early Edition)](https://teambasedinquirylearning.github.io/linear-algebra/2024e/GT1.html#activity-140)
 we provided such a static image:
 
-![before/after of scaling a determinant](https://teambasedinquirylearning.github.io/linear-algebra/2024e/generated/latex-image/GT1-image-scaled-column-determinant.svg)
+<img style="background-color:white; width:100%" alt="before/after of scaling a determinant" src="https://teambasedinquirylearning.github.io/linear-algebra/2024e/generated/latex-image/GT1-image-scaled-column-determinant.svg">
 
 Well, it's certainly better than nothing. But for all the abstraction of multiplying the base by $c$,
 that $c$ value sure looks fixed at around maybe $1.4$... Would it be nice if students could see the
@@ -52,7 +52,7 @@ I'm just going to focus on the end product (which, of course, is 100% open-sourc
 100% open-source software). Let's see how Doenet can helped us create an interactve figure to replace
 the above static image in [Activity 5.1.10 (2025 Edition)](https://library.tbil.org/2025/linear-algebra/GT1.html#GT1-activity-scale-column):
 
-<iframe src="https://library.tbil.org/2025/linear-algebra/GT1-interactive-scale-column-if.html"></iframe>
+<iframe src="https://library.tbil.org/2025/linear-algebra/GT1-interactive-scale-column-if.html" style="width: 100%; background-color: white; min-height: 600px;></iframe>
 
 This has worked so much better! I can send this link to my students' computers, and together they will
 move the slider, observing the original area when $c=1$, the doubled area when $c=2$, and the halved area
