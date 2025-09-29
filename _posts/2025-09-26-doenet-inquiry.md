@@ -64,7 +64,7 @@ without me telling them this myself!
 To see how we explore the determinant's other geometrical properties using Doenet interactives, check out
 [Section 5.1 of our 2025 Edition](https://library.tbil.org/2025/linear-algebra/GT1.html)! In a future post, I'll explore
 how to create a great Doenet interactive for yourself at [Doenet.org](https://doenet.org/).
-(Or if you're inpatient, you can of course see the Doenet source for this interactive yourself
+(Or if you're impatient, you can of course see the Doenet source for this interactive yourself
 [here on GitHub](https://github.com/TeamBasedInquiryLearning/library/blob/8988a246077a74888461faf57e8acc9292bee8a7/source/linear-algebra/source/05-GT/doenet/GT1-doenet-scale-column.xml).)
 
 ---
@@ -76,4 +76,5 @@ to create high-quality, free and open-source TBIL activity books for Precalculus
 and Linear Algebra. If you want to get involved, ping me in the
 [MathTech.org Discord](https://discord.gg/64tkJueD6G), or even better, join our
 [TBIL Zulip chat](https://tbil.zulipchat.com/)!
+
 
