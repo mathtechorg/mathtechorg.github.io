@@ -2,10 +2,10 @@
 title: True Randomization in an Introductory Statistics course
 tags: PreTeXt R Inquiry
 author: Tien Chih
+---
+
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
 <script>sagecell.makeSagecell({"inputLocation": ".sage"});</script>
-
----
 
 For about a decade now, I've been teaching on and off some form of introductory statistics for a wide variety of students across different institutions.  This is an immensely popular course at the undergraduate level which should come as no surprise.  The ability to analyze data and draw some basic inferences and conclusions is incredibly important across numerous disciplines.  Students have a wide variety of interests, goals and prior experience, and not everyone comes to this course with a love or experience with technical mathematics.
 
@@ -43,5 +43,6 @@ Another concept which may be difficult to describe without demonstration is the 
   height="500px"
   src="https://sagecell.sagemath.org/?z=eJxtkk1PwzAMhu-V-h-sIqEEMrYOgQRSkDiMIwc-TtM0ZW2mBaVJSLPBQPx3nK7bOtilSmy_j187NcuqFpXj-WCQJoZf4dfxwcXwMk3SJGambiECcPDSkcd7BmYjoG32eXQ0V1ht_XQlC_4_lyZz64kCZSC_3Ya_0wQgniJupoytSM4McxROwM6CwGLR5LUEO4dafUkwAHNvKwgLCc66pRZBWbMFNcbHaoLAeO1jNSDsQZlyo_DWWR8VgH4wpOq2wY7wPGr17z6QLvOM5L3unfYNPYDXQZhS-BKk99anyU-aaPshm5UE7Mb3FqEH-cXNNZxte6bJ0rnjpef_SptlAnk7ss3dG4zfJjzzssxiVM2Ju-NdM5iGU-j2xMgdR8ohYaaXMvtpZnHaBlKQShnSJVFWiU_SJVHKoCADBjl637pjENZO4mCZyWg7wJ_fAbQysiaoPXCqJuzQKK6eFUQxUEjVHyVChyxOzvfeo0iUJX95eh1hOzGLbLLCUtfR6LCOB_oL3D_7-w==&lang=r&interacts=eJyLjgUAARUAuQ==">
 </iframe>
+
 
 These are just a couple of the statistical concepts which lend themselves well to discovery and inquiry via simulation and experimentation.  Having these cells loaded and ready in a [PreTeXt workbook](https://tienchih.github.io/tbil-stats/book-1.html) cuts down on the barrier to entry for the students to benefit from these sorts of activities. The structure of the activities are highly informed by [Team Based Inquiry Learning](GitHub.com/TeamBasedInquiryLearning) pedagogy, the content follows from the excellent [OpenIntro](https://www.openintro.org/) OER.  To talk more about tech in math education, you can find me and many others on the [MathTech.org Discord](https://discord.gg/64tkJueD6G)!
