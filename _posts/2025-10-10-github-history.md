@@ -1,5 +1,5 @@
 ---
-title: The GitHub Cinematic Multiverse
+title: Getting Started with GitHub
 tags: GitHub version-control
 author: Steven Clontz
 ---
@@ -38,7 +38,7 @@ announce that I'll be running my next **Getting Started with GitHub** Zoom works
 on December 15 and 17 this winter.
 
 You can [register on ScholarLattice](https://preview.scholarlattice.org/collections/82bace2a-c3ce-4dfc-9089-4feb05dd8af7)
-now, but I thought it'd be helpful to start a series of posts where I point out some of my
-favorite topics from this book and training.
-
-Today, I wanted to look at how Git tracks the history of a project.
+now. But I also plan on sharing several posts over the coming weeks pointing out a few
+of my favorite topics from my handbook and training. So join me in about a week, and we'll
+get started exploring the GitHub Cinematic Multiverse by learning about how Git version control
+[doesn't treat time as linear](https://g4m.code4math.org/ch-git-github.html#fig-git-branches)! 👀
