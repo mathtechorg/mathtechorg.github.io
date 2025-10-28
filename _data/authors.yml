@@ -72,3 +72,21 @@ Chrissy Safranski:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tanaquil18"
 
+Mitch Keller:
+  name        : "Mitch Keller"
+  bio         : "Mitch Keller is teaching faculty in the Department of Mathematics at the University of Wisconsin–Madison and one of the authors of the OER text Applied Combinatorics."
+  avatar      : "/assets/images/bio-keller.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mitch.keller@wisc.edu"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://tienchih.github.io"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/mitchkeller.phd"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mitchkeller"
+
