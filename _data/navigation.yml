@@ -3,5 +3,7 @@ main:
     url: /posts/
   - title: "Workshops"
     url: /workshops/
+  - title: "Calendar"
+    url: /events/
   - title: "About"
     url: /about/
