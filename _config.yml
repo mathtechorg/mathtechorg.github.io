@@ -80,6 +80,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mathtechorg"
+    - label: "Discord"
+      icon: "fab fa-brands fa-discord"
+      url: "https://mathtech.org/chat"
 
 
 footer:
