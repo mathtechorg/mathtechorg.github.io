@@ -1,0 +1,244 @@
+param(
+    [Parameter(Mandatory=$true)]
+    [string]$InputDocx,
+
+    [Parameter(Mandatory=$true)]
+    [string]$OutputFile
+)
+
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+# Extract document.xml from DOCX
+function Get-DocxXml {
+    param($path)
+    $tempDir = Join-Path $env:TEMP ([System.IO.Path]::GetRandomFileName())
+    [System.IO.Compression.ZipFile]::ExtractToDirectory($path, $tempDir)
+    $xmlPath = Join-Path $tempDir "word\document.xml"
+    return [xml](Get-Content $xmlPath -Raw)
+}
+
+# Recursive OMath -> LaTeX converter
+function Convert-OMathNode-To-LaTeX {
+    param($node, $nsMgr)
+    if (-not $node) { return "" }
+
+    $latex = ""
+
+    foreach ($child in $node.ChildNodes) {
+        switch ($child.LocalName) {
+            "f" {
+                $num = Convert-OMathNode-To-LaTeX $child.num $nsMgr
+                $den = Convert-OMathNode-To-LaTeX $child.den $nsMgr
+                $latex += "\frac{$num}{$den}"
+            }
+            "sSub" {
+                $base = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                $sub = Convert-OMathNode-To-LaTeX $child.sub $nsMgr
+                $latex += "${base}_{$sub}"
+            }
+            "sSup" {
+                $base = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                $sup = Convert-OMathNode-To-LaTeX $child.sup $nsMgr
+                $latex += "${base}^{$sup}"
+            }
+            "sSubSup" {
+                $base = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                $sub = Convert-OMathNode-To-LaTeX $child.sub $nsMgr
+                $sup = Convert-OMathNode-To-LaTeX $child.sup $nsMgr
+                $latex += "${base}_{$sub}^{$sup}"
+            }
+            "sPre" {
+                $sub = Convert-OMathNode-To-LaTeX $child.sub $nsMgr
+                $sup = Convert-OMathNode-To-LaTeX $child.sup $nsMgr
+                $base = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                $latex += "_{$sub}^{$sup}$base"
+            }
+            "rad" {
+                $radicand = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                $latex += "\sqrt{$radicand}"
+            }
+            "accent" {
+                $base = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                $chrNode = $child.SelectSingleNode(".//m:chr", $nsMgr)
+                if ($chrNode) {
+                    $val = $chrNode.GetAttribute("val")
+                    switch ($val) {
+                        "→" { $latex += "\vec{$base}" }
+                        "⟶" { $latex += "\overrightarrow{$base}" }
+                        default { $latex += $base }
+                    }
+                } else { $latex += $base }
+            }
+            "nary" {
+                $chrNode = $child.SelectSingleNode(".//m:chr", $nsMgr)
+                $symbol = ""
+                if ($chrNode) { $symbol = $chrNode.GetAttribute("val") }
+
+                switch ($symbol) {
+                    "∫" {
+                        $lower = Convert-OMathNode-To-LaTeX $child.sub $nsMgr
+                        $upper = Convert-OMathNode-To-LaTeX $child.sup $nsMgr
+                        $body = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                        $diff = ""
+                        if ($body -match "(d[a-z]+)$") {
+                            $diff = $matches[1]
+                            $body = $body -replace "(d[a-z]+)$",""
+                        }
+                        $latex += "\int"
+                        if ($lower -ne "") { $latex += "_{$lower}" }
+                        if ($upper -ne "") { $latex += "^{$upper}" }
+                        $latex += " $body$diff"
+                    }
+                    "lim" {
+                        $sub = Convert-OMathNode-To-LaTeX $child.sub $nsMgr
+                        $base = Convert-OMathNode-To-LaTeX $child.e $nsMgr
+                        if ($sub -ne "") { $sub = $sub -replace "→","\\rightarrow"; $latex += "\lim_{$sub} $base" }
+                        else { $latex += "\lim $base" }
+                    }
+                    default {
+                        foreach ($c in $child.ChildNodes) { $latex += Convert-OMathNode-To-LaTeX $c $nsMgr }
+                    }
+                }
+            }
+            "r" {
+                $tNode = $child.SelectSingleNode("m:t", $nsMgr)
+                if ($tNode) {
+                    $text = $tNode.InnerText
+                    $text = $text -replace "×","\times"
+                    $text = $text -replace "÷","\div"
+                    $text = $text -replace "→","\rightarrow"
+                    $text = $text -replace "…","..."
+                    $latex += $text
+                }
+            }
+            default {
+                $latex += Convert-OMathNode-To-LaTeX $child $nsMgr
+            }
+        }
+    }
+
+    return $latex
+}
+
+# Load XML
+$xml = Get-DocxXml $InputDocx
+
+# Namespace manager
+$nsMgr = New-Object System.Xml.XmlNamespaceManager($xml.NameTable)
+$nsMgr.AddNamespace("w",  "http://schemas.openxmlformats.org/wordprocessingml/2006/main")
+$nsMgr.AddNamespace("m",  "http://schemas.openxmlformats.org/officeDocument/2006/math")
+
+# Get all paragraphs
+$paragraphs = $xml.SelectNodes("//w:p", $nsMgr)
+
+$outputExercises = @()
+$currentQuestion = ""
+$currentAnswer = ""
+$currentHint = ""
+$currentSolution = ""
+
+foreach ($p in $paragraphs) {
+    $numNode = $p.SelectSingleNode(".//w:numPr/w:ilvl", $nsMgr)
+    if (-not $numNode) { continue }
+    $level = [int]$numNode.val
+
+    # Build text content with math
+    $text = ""
+    foreach ($child in $p.ChildNodes) {
+        if ($child.LocalName -eq "oMath" -or $child.LocalName -eq "oMathPara") {
+            $latex = Convert-OMathNode-To-LaTeX $child $nsMgr
+            $text += "<m>$latex</m>"
+        }
+        elseif ($child.LocalName -eq "r") {
+            $t = $child.SelectSingleNode("./w:t", $nsMgr)
+            if ($t) { 
+                $txt = $t.InnerText -replace "…","..."
+                $text += $txt 
+            }
+        }
+    }
+
+    $text = $text.Trim()
+
+    switch ($level) {
+        0 { # Question
+            if ($currentQuestion -ne "") {
+                $outputExercises += "<exercise>"
+                $outputExercises += "  <statement>"
+                $outputExercises += "    <p>$currentQuestion</p>"
+                $outputExercises += "  </statement>"
+
+                if ($currentHint -ne "") {
+                    $outputExercises += "  <hint>"
+                    $outputExercises += "    <p>$currentHint</p>"
+                    $outputExercises += "  </hint>"
+                } else {
+                    $outputExercises += "  <!--<hint>--> "
+                    $outputExercises += "  <!--</hint>--> "
+                }
+
+                $outputExercises += "  <answer>"
+                $outputExercises += "    <p>$currentAnswer</p>"
+                $outputExercises += "  </answer>"
+
+                if ($currentSolution -ne "") {
+                    $outputExercises += "  <solution>"
+                    $outputExercises += "    <p>$currentSolution</p>"
+                    $outputExercises += "  </solution>"
+                } else {
+                    $outputExercises += "  <!-- <solution>--> "
+                    $outputExercises += "  <!-- </solution>--> "
+                }
+
+                $outputExercises += "</exercise>"
+                $outputExercises += ""
+            }
+
+            $currentQuestion = $text
+            $currentAnswer = ""
+            $currentHint = ""
+            $currentSolution = ""
+        }
+
+        1 { $currentAnswer = $text }
+        2 { $currentHint = $text }
+        3 { $currentSolution = $text }
+    }
+}
+
+# Last exercise
+if ($currentQuestion -ne "") {
+    $outputExercises += "<exercise>"
+    $outputExercises += "  <statement>"
+    $outputExercises += "    <p>$currentQuestion</p>"
+    $outputExercises += "  </statement>"
+
+    if ($currentHint -ne "") {
+        $outputExercises += "  <hint>"
+        $outputExercises += "    <p>$currentHint</p>"
+        $outputExercises += "  </hint>"
+    } else {
+        $outputExercises += "  <!--<hint>--> "
+        $outputExercises += "  <!--</hint>--> "
+    }
+
+    $outputExercises += "  <answer>"
+    $outputExercises += "    <p>$currentAnswer</p>"
+    $outputExercises += "  </answer>"
+
+    if ($currentSolution -ne "") {
+        $outputExercises += "  <solution>"
+        $outputExercises += "    <p>$currentSolution</p>"
+        $outputExercises += "  </solution>"
+    } else {
+        $outputExercises += "  <!-- <solution>--> "
+        $outputExercises += "  <!-- </solution>--> "
+    }
+
+    $outputExercises += "</exercise>"
+}
+
+# Save output
+$outputExercises -join "`r`n" | Out-File $OutputFile -Encoding UTF8
+
+Write-Host "Conversion complete. Output saved to $OutputFile"
