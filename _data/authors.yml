@@ -90,3 +90,21 @@ Mitch Keller:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mitchkeller"
 
+James Vranish:
+  name        : "James Vranish"
+  bio         : "James Vranish is an associate professor of biochemistry at Franciscan University of Steubenville."
+  # avatar      : "/assets/images/bio-vranish.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jvranish@franciscan.edu"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://tienchih.github.io"
+    #- label: "Bluesky"
+    #  icon: "fab fa-brands fa-bluesky"
+    #  url: "https://bsky.app/profile/tienchihmath.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/irishaggiebaron"
+
