@@ -32,7 +32,8 @@ For the editorial board, editathon provides us with fresh perspectives, a motiva
 
 ## Join Us!
 Consider this your invitation to join us for the TBIL Winter Editathon, taking place Monday December 15th-Thursday December 18th. 
-If you're intersted in joining us for editathon, please.......
+If you're interested in joining us for editathon, please join the conversation on our
+[Zulip chatroom](https://tbil.zulipchat.com/#narrow/channel/481193-editathon/topic/Winter.202025.20Dates.3A.20Dec.2015-18/with/548038883)
 Our main meeting hours will be:
 1. Monday 10:00am-3:00pm Central
 2. Tuesday 12:00pm-5:00pm Central
