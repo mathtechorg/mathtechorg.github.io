@@ -1,5 +1,5 @@
 ---
-title: Editathons: Getting the Most Out of Community Editing
+title: "Editathons: Getting the Most Out of Community Editing"
 tags: open-access authoring, editing, Pretext
 author: Jordan Kostiuk
 comments: true
