@@ -108,3 +108,21 @@ James Vranish:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/irishaggiebaron"
 
+Jordan Kostiuk:
+  name        : "Jordan Kostiuk"
+  bio         : "Jordan Kostiuk is an Senior Lecturer in Mathematics at Brown University."
+  # avatar      : "/assets/images/bio-vranish.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jordan_kostiuk@brown.edu"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://tienchih.github.io"
+    #- label: "Bluesky"
+    #  icon: "fab fa-brands fa-bluesky"
+    #  url: "https://bsky.app/profile/tienchihmath.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jkostiuk"
+
