@@ -31,7 +31,7 @@ For users, this is a great way to engage more with the TBIL community, make sure
 For the editorial board, editathon provides us with fresh perspectives, a motivating environment, and, most importantly, the accountability that comes with setting aside a focused window of time to work. 
 
 ## Join Us!
-Consider this your invitation to join us for the TBIL Winter Editathon, taking place Monday December 15th-Thursday December 18th. 
+Consider this your invitation to join us for the TBIL Winter 2025 Editathon, taking place Monday December 15th-Thursday December 18th. 
 If you're interested in joining us for editathon, please join the conversation on our
 [Zulip chatroom](https://tbil.zulipchat.com/#narrow/channel/481193-editathon/topic/Winter.202025.20Dates.3A.20Dec.2015-18/with/548038883)
 Our main meeting hours will be:
