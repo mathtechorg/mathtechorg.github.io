@@ -8,6 +8,18 @@ There is so much to learn, and so many opportunities to learn it.  Below we coll
 
 ## Upcoming
 
+### Virtual Mini-Workshop: Getting Started with PreTeXt
+
+**Tuesday January 27, 2026**. Virtual.
+
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  
+
+More information, including how to register, is available on the [workshop page](/workshops/mathtech2026.html).
+
+---
+
+## Previous Workshops
+
 ### Virtual Workshop: Accessible Course Materials with PreTeXt
 
 **Monday May 19 - Thursday May 22, 2025**. Virtual.
