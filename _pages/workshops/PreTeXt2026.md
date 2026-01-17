@@ -14,7 +14,7 @@ Registration is free using the Register here link above.
 
 ## Workshop Details
 
-**When**: Tuesday, January 27 2026; 11-1pm EST
+**When**: Tuesday, January 27 2026; 11am-1pm EST
 
 **Where**: Virtual (on zoom)
 
