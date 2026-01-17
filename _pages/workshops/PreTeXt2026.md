@@ -4,7 +4,7 @@ title: "Getting Started with PreTeXT Workshop"
 layout: single
 ---
 
-Concerned about the accessibility of your course documents? (PreTeXt)[https://pretextbook.org/] is the answer.
+Concerned about the accessibility of your course documents? [PreTeXt](https://pretextbook.org/) is the answer.
 
 Participants of this workshop will be introduced to the fundamentals of authoring documents with PreTeXt and gain the technical skills required to work with it, particularly to author course materials such as *worksheets*. 
 
@@ -14,7 +14,7 @@ Registration is free using the Register here link above.
 
 ## Workshop Details
 
-**When**: Tuesday, January 27 2026; 11-1pm EDT
+**When**: Tuesday, January 27 2026; 11-1pm EST
 
 **Where**: Virtual (on zoom)
 
