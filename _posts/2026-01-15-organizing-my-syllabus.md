@@ -1,7 +1,7 @@
 ---
 title: Organizing my Syllabus
 subtitle: Using PreTeXt and GitHub to make the clickiest part of the semester less annoying.
-tags: PreTeXt, accessibility
+tags: PreTeXt accessibility
 author: Peter Keep
 comments: true
 ---
