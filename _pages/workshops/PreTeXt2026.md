@@ -8,9 +8,11 @@ Concerned about the accessibility of your course documents? [PreTeXt](https://pr
 
 Participants of this workshop will be introduced to the fundamentals of authoring documents with PreTeXt and gain the technical skills required to work with it, particularly to author course materials such as *worksheets*. 
 
-Prior to the workshop, participants should have some familiarity with LaTeX or other markup languages, but no previous experience working with PreTeXt or HTML/XML is assumed.
+Participants should have some familiarity with LaTeX or other markup languages, but no previous experience working with PreTeXt or HTML/XML is assumed.
 
-Registration is free using the Register here link above.
+Prior to the workshop, please ensure you have a [GitHub account](https://github.com/join).  (While using GitHub is not necessary to use PreTeXt, it provides the easiest way to get started without needing to install PreTeXt and provides free hosting for web versions of your documents.)
+
+Registration is free and open to all.
 
 ## Workshop Details
 
@@ -23,6 +25,8 @@ Registration is free using the Register here link above.
 **Registration**: Complete this [registration form](https://scholarlattice.org/collections/d283b118-88ba-46c5-9239-f6677056bebb/registrations/new).
 
 ### Workshop content
+
+We will work step-by-step to guide all participants through the process of creating a PreTeXt project from scratch. By the end of the workshop, participants will be able to:
 
 - Use GitHub Codespaces to create an editable PreTeXt document in their web browser.
 - Write and structure content using PreTeXt markup.
