@@ -126,3 +126,19 @@ Jordan Kostiuk:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jkostiuk"
 
+Peter Keep:
+  name        : "Peter Keep"
+  bio         : "Peter Keep is Chair of the Department of Mathematics at Moraine Valley Community College."
+  links:
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:jordan_kostiuk@brown.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.peter-keep.com/"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/mathprofpeter.bsky.social"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/jkostiuk"
