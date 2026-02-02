@@ -1,12 +1,14 @@
 ---
-permalink: /workshops/PreTeXt2026.html
-title: "Getting Started with PreTeXT Workshop"
+permalink: /workshops/PreTeXt2026-1.html
+title: "Getting Started with PreTeXT Workshop - January 2026"
 layout: single
 ---
 
+**[Recording of workshop](https://youtu.be/bRgu1YEpQVs?si=oMMTPDH1eLwUZjV5) now available**
+
 Concerned about the accessibility of your course documents? [PreTeXt](https://pretextbook.org/) is the answer.
 
-Participants of this workshop will be introduced to the fundamentals of authoring documents with PreTeXt and gain the technical skills required to work with it, particularly to author course materials such as *worksheets*. 
+Participants of this workshop will be introduced to the fundamentals of authoring documents with PreTeXt and gain the technical skills required to work with it, particularly to author course materials such as *worksheets*.
 
 Participants should have some familiarity with LaTeX or other markup languages, but no previous experience working with PreTeXt or HTML/XML is assumed.
 
