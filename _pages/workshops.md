@@ -8,13 +8,29 @@ There is so much to learn, and so many opportunities to learn it.  Below we coll
 
 ## Upcoming
 
-### Virtual Mini-Workshop: Getting Started with PreTeXt
+### Virtual Workshop: Getting Started with PreTeXt - February
 
-**Tuesday January 27, 2026**. Virtual.
+**Thursday February 12, 2026**. Virtual.
 
-Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
 
-More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026.html).
+More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-2.html).
+
+### Virtual Workshop: Getting Started with PreTeXt - March
+
+**Date TBA**. Virtual.
+
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
+
+More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-3.html).
+
+### Virtual Workshop: Getting Started with PreTeXt - April
+
+**Date TBA**. Virtual.
+
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
+
+More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-4.html).
 
 ---
 
@@ -37,4 +53,10 @@ Free one-day PreTeXt workshop at the University of Northern Colorado in Greeley,
 See the [official COMaT website](https://openmathbooks.org/comat/) for details and to register.
 
 
+### Virtual Mini-Workshop: Getting Started with PreTeXt
 
+**Tuesday January 27, 2026**. Virtual.
+
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
+
+More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-1.html).
