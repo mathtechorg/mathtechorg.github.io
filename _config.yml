@@ -74,15 +74,18 @@ author:
   avatar : "/assets/images/mathtechorg-avatar.svg"
   bio    : "Showcasing open-source technologies that innovate mathematics education and communication."
   links:
-    - label: "Bluesky"
-      icon: "fab fa-brands fa-bluesky"
-      url: "https://bsky.app/profile/mathtech.org"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mathtechorg"
     - label: "Discord"
       icon: "fab fa-brands fa-discord"
       url: "https://mathtech.org/chat"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/mathtech.org"
+    - label: "YouTube"
+      icon: "fab fa-brands fa-youtube"
+      url: "https://youtube.com/@MathTechOrg"
 
 
 footer:
