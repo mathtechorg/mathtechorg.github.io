@@ -14,7 +14,7 @@ Registration is free and open to all.
 
 ## Workshop Details
 
-**When**: Monday, March 2 2026; 1-2pm EST.
+**When**: Monday, March 2 2026; 12-1pm EST.
 
 **Where**: Virtual (on zoom)
 
