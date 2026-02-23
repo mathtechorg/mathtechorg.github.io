@@ -8,21 +8,21 @@ There is so much to learn, and so many opportunities to learn it.  Below we coll
 
 ## Upcoming
 
-### Virtual Workshop: Getting Started with PreTeXt - February
-
-**Thursday February 12, 2026**. Virtual.
-
-Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
-
-More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-2.html).
 
 ### Virtual Workshop: Getting Started with PreTeXt - March
 
-**Date TBA**. Virtual.
+**Monday, March 2 2026; 12-1pm EST**. Virtual.
 
-Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  The focus of this workshop will be on creating a printable worksheet using PreTeXt.Plus.
 
 More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-3.html).
+
+### Virtual Workshop: Introduction to PreFigure
+
+**Wednesday, March 18 2026; 1-2pm EST**.  Virtual
+
+Come learn about [PreFigure](https://prefigure.org/), a free authoring system for accessible mathematical diagrams.  For more information and to register, see the [workshop page](https://scholarlattice.org/collections/8bddd96d-96fb-4bc2-a78c-3c7ae76a0349) on Scholar Lattice.
+
 
 ### Virtual Workshop: Getting Started with PreTeXt - April
 
@@ -60,3 +60,12 @@ See the [official COMaT website](https://openmathbooks.org/comat/) for details a
 Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
 
 More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-1.html).
+
+
+### Virtual Workshop: Getting Started with PreTeXt - February
+
+**Thursday February 12, 2026**. Virtual.
+
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
+
+More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-2.html).
