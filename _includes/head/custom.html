@@ -1,6 +1,6 @@
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- MathJax -->
 <script>
   MathJax = {
     tex: {
@@ -10,9 +10,35 @@
       fontCache: 'global'
     }
   };
-  </script>
-  <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-  </script>
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<!-- Prefigure support -->
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/diagcess@1.3.3/dist/diagcess.js"
+  defer>
+</script>
+<script type="text/javascript" defer>
+  document.addEventListener("DOMContentLoaded", function() {
+      diagcess.Base.init();
+  });
+</script>
+<style>
+  .ChemAccess-element {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+  }
+</style>
 
 <!-- end custom head snippets -->
