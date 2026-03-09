@@ -1,0 +1,80 @@
+<diagram>
+  <annotations>
+    <annotation id="grad-demo-figure" speech2="A contour of a function of two variables, a point on that contour, and the gradient of the function at that point">
+      <grouped>grad-demo-figure</grouped>
+      <position>1</position>
+      <children>
+        <active>grad-demo-grid-axes</active>
+        <active>grad-demo-contour</active>
+        <active>grad-demo-x0</active>
+        <active>grad-demo-gradient</active>
+      </children>
+      <components>
+        <active>grad-demo-grid-axes</active>
+        <active>grad-demo-contour</active>
+        <active>grad-demo-x0</active>
+        <active>grad-demo-gradient</active>
+      </components>
+    </annotation>
+    <annotation id="grad-demo-grid-axes" speech2="The coordinate grid and axes">
+      <grouped>grad-demo-grid-axes</grouped>
+      <position>1</position>
+      <children>
+        <active>grad-demo-grid</active>
+        <active>grad-demo-axes</active>
+      </children>
+      <components>
+        <active>grad-demo-grid</active>
+        <active>grad-demo-axes</active>
+      </components>
+      <parents>
+        <grouped>grad-demo-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="grad-demo-grid" speech2="The coordinate grid">
+      <active>grad-demo-grid</active>
+      <position>1</position>
+      <parents>
+        <grouped>grad-demo-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="grad-demo-axes" speech2="The coordinate axes">
+      <active>grad-demo-axes</active>
+      <position>2</position>
+      <parents>
+        <grouped>grad-demo-grid-axes</grouped>
+      </parents>
+    </annotation>
+    <annotation id="grad-demo-contour" speech2="A contour of the function.  The value of the function at each point of the contour is four.">
+      <active>grad-demo-contour</active>
+      <position>2</position>
+      <parents>
+        <grouped>grad-demo-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="grad-demo-x0" speech2="A point x naught on the contour">
+      <active>grad-demo-x0</active>
+      <position>3</position>
+      <parents>
+        <grouped>grad-demo-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="grad-demo-gradient" speech2="The gradient of the function at the point x naught is orthogonal to the contour">
+      <grouped>grad-demo-gradient</grouped>
+      <position>4</position>
+      <components>
+        <passive>grad-demo-grad-label</passive>
+      </components>
+      <parents>
+        <grouped>grad-demo-figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="grad-demo-grad-label">
+      <passive>grad-demo-grad-label</passive>
+      <position>0</position>
+      <parents>
+        <grouped>grad-demo-gradient</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>
