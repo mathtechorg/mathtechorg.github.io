@@ -142,3 +142,20 @@ Peter Keep:
     # - label: "GitHub"
     #   icon: "fab fa-fw fa-github"
     #   url: "https://github.com/jkostiuk"
+
+David Austin:
+  name        : "David Austin"
+  bio         : "David Austin is a professor of mathematics at Grand Valley State University."
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:austind@gvsu.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://davidaustinm.github.io/"
+    #- label: "Bluesky"
+    #  icon: "fab fa-brands fa-bluesky"
+    #  url: "https://bsky.app/profile/mathprofpeter.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/davidaustinm"
