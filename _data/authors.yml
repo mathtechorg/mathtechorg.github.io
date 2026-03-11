@@ -146,6 +146,7 @@ Peter Keep:
 David Austin:
   name        : "David Austin"
   bio         : "David Austin is a professor of mathematics at Grand Valley State University."
+  avatar      : "/assets/images/bio-austin.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
