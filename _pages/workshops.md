@@ -8,15 +8,6 @@ There is so much to learn, and so many opportunities to learn it.  Below we coll
 
 ## Upcoming
 
-
-### Virtual Workshop: Getting Started with PreTeXt - March
-
-**Monday, March 2 2026; 12-1pm EST**. Virtual.
-
-Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  The focus of this workshop will be on creating a printable worksheet using PreTeXt.Plus.
-
-More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-3.html).
-
 ### Virtual Workshop: Introduction to PreFigure
 
 **Wednesday, March 18 2026; 1-2pm EST**.  Virtual
@@ -69,3 +60,12 @@ More information, including how to register, is available on the [workshop page]
 Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.
 
 More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-2.html).
+
+
+### Virtual Workshop: Getting Started with PreTeXt - March
+
+**Monday, March 2 2026; 12-1pm EST**. Virtual.
+
+Join the MathTech.org team for a free virtual workshop on using PreTeXt for creating accessible course materials.  The focus of this workshop will be on creating a printable worksheet using PreTeXt.Plus.
+
+More information, including how to register, is available on the [workshop page](/workshops/PreTeXt2026-3.html).
