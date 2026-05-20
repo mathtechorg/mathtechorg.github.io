@@ -1,0 +1,12 @@
+---
+title: M2 with undergraduates
+tags: M2 undergraduates GitHub g4m
+author: Francesca Gandini
+comments: true
+---
+
+[Macaulay2.com](https://macaulay2.com/) also known as M2, is a computer algebra software designed for research in algebraic geometry and commutative algebra. Its built-in algebraic objects make it especially convenient for exploring polynomial rings. The development is community-based, the code is open source, and the functionalities are continuously improved.
+
+One barrier to access is the installation that, given the sophistication of the software, requires terminal use and some homebrew knowledge. In an effort to onboard undergraduates quickly to Macaulay2, I have been involved in the [GitHub for Mathematicians](https://g4m.code4math.org/) project to learn and document workflows that require minimal specialized coding knowledge. 
+
+There are lots of opportunities for you to learn about 
