@@ -186,7 +186,7 @@ Anna Natalie Chlopecki:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "achlopec@purdue.edu"
+      url: "mailto:achlopec@purdue.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://anchlopecki.github.io/"
