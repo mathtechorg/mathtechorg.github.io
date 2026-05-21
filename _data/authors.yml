@@ -178,3 +178,21 @@ Francesca Gandini:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/fragandi"
+
+Anna Natalie Chlopecki:
+  name        : "Anna Natalie Chlopecki"
+  bio         : "Anna Natalie Chlopecki is graduate student starting her last year at Purdue University.“
+  avatar      : "/assets/images/bio-chlopecki.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "achlopec@purdue.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://anchlopecki.github.io/"
+ #  - label: "Bluesky"
+ #    icon: "fab fa-brands fa-bluesky"
+ #    url: "https://"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/anchlopecki/anchlopecki.github.io"
