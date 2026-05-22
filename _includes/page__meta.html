@@ -2,7 +2,6 @@
 {% assign authors = document.authors | default: document.author %}
 {% if document.read_time or document.show_date or authors %}
   <p class="page__meta">
-    {% if authors %}
       {% if authors %}
         {% for author in authors %}
           <span class="page__meta-author">
@@ -10,7 +9,6 @@
           </span>
         {% endfor %}
       {% endif %}
-    {% endif %}
 
     {% if authors and document.show_date %}<span class="page__meta-sep"></span>{% endif %}
 
