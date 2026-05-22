@@ -5,7 +5,7 @@
     {% if authors %}
       {% if authors %}
         {% for author in authors %}
-          <span class="page__meta-date">
+          <span class="page__meta-author">
             {{site.data.authors[author].name}}{% unless forloop.last %},{% endunless %}
           </span>
         {% endfor %}
