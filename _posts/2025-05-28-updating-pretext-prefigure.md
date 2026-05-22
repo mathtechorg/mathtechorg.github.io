@@ -1,7 +1,7 @@
 ---
 title: Updating Your Version of PreTeXt and PreFigure
 tags: PreTeXt PreFigure Tutorial
-author: Chrissy Safranski
+author: safranski
 ---
 
 [PreTeXt](https://pretextbook.org/) and [PreFigure](https://prefigure.org/) are under active development - many people are currently improving them, making them easier to use, adding new features, and fixing bugs that have been identified.  While it's awesome that the user experience is getting better all the time, it also means that users need to frequently upgrade their versions of PreTeXt and PreFigure.

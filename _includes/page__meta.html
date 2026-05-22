@@ -1,6 +1,17 @@
 {% assign document = post | default: page %}
-{% if document.read_time or document.show_date %}
+{% assign authors = document.authors | default: document.author %}
+{% if document.read_time or document.show_date or authors %}
   <p class="page__meta">
+      {% if authors %}
+        {% for author in authors %}
+          <span class="page__meta-author">
+            {{site.data.authors[author].name}}{% unless forloop.last %},{% endunless %}
+          </span>
+        {% endfor %}
+      {% endif %}
+
+    {% if authors and document.show_date %}<span class="page__meta-sep"></span>{% endif %}
+
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">

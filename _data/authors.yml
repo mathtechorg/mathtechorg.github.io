@@ -1,6 +1,6 @@
 # /_data/authors.yml
 
-Oscar Levin:
+levin:
   name        : "Oscar Levin"
   bio         : "Oscar Levin is a professor of mathematical sciences at the University of Northern Colorado. He is the author of the OER book *Discrete Mathematics: an Open Introduction* and contributor to the PreTeXt authoring system."
   avatar      : "/assets/images/bio-levin.jpg"
@@ -18,7 +18,7 @@ Oscar Levin:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/oscarlevin"
 
-Steven Clontz:
+clontz:
   name        : "Steven Clontz"
   bio         : "Developer of math infrastructure projects including PreTeXt.Plus and ScholarLattice.org"
   avatar      : "/assets/images/bio-clontz.jpg"
@@ -36,7 +36,7 @@ Steven Clontz:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/stevenclontz"
 
-Tien Chih:
+chih:
   name        : "Tien Chih"
   bio         : "Tien Chih is an assistant professor of mathematics at Oxford College of Emory University."
   #avatar      : "/assets/images/bio-clontz.jpg"
@@ -54,7 +54,7 @@ Tien Chih:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tienchih"
 
-Chrissy Safranski:
+safranski:
   name        : "Chrissy Safranski"
   bio         : "Chrissy Safranski is a professor of mathematics at Franciscan University of Steubenville."
   avatar      : "/assets/images/bio-safranski.jpg"
@@ -72,7 +72,7 @@ Chrissy Safranski:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tanaquil18"
 
-Mitch Keller:
+keller:
   name        : "Mitch Keller"
   bio         : "Mitch Keller is teaching faculty in the Department of Mathematics at the University of Wisconsin–Madison and one of the authors of the OER text Applied Combinatorics."
   avatar      : "/assets/images/bio-keller.jpg"
@@ -90,7 +90,7 @@ Mitch Keller:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mitchkeller"
 
-James Vranish:
+vranish:
   name        : "James Vranish"
   bio         : "James Vranish is an associate professor of biochemistry at Franciscan University of Steubenville."
   # avatar      : "/assets/images/bio-vranish.jpg"
@@ -108,7 +108,7 @@ James Vranish:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/irishaggiebaron"
 
-Jordan Kostiuk:
+kostiuk:
   name        : "Jordan Kostiuk"
   bio         : "Jordan Kostiuk is an Senior Lecturer in Mathematics at Brown University."
   # avatar      : "/assets/images/bio-vranish.jpg"
@@ -126,7 +126,7 @@ Jordan Kostiuk:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jkostiuk"
 
-Peter Keep:
+keep:
   name        : "Peter Keep"
   bio         : "Peter Keep is Chair of the Department of Mathematics at Moraine Valley Community College."
   links:
@@ -143,7 +143,7 @@ Peter Keep:
     #   icon: "fab fa-fw fa-github"
     #   url: "https://github.com/jkostiuk"
 
-David Austin:
+austin:
   name        : "David Austin"
   bio         : "David Austin is a professor of mathematics at Grand Valley State University."
   avatar      : "/assets/images/bio-austin.jpg"
@@ -161,7 +161,7 @@ David Austin:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/davidaustinm"
 
-Francesca Gandini:
+gandini:
   name        : "Francesca Gandini"
   bio         : "Francesca Gandini is an Assistant Professor at St. Olaf College, co-author of the InvariantRing package for Macaulay2, Calculus for Team-Based Inquiry Learning, and GitHub for Mathematicians."
   avatar      : "/assets/images/bio-gandini.jpg"
@@ -179,7 +179,7 @@ Francesca Gandini:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/fragandi"
 
-Anna Natalie Chlopecki:
+chlopecki:
   name        : "Anna Natalie Chlopecki"
   bio         : "Anna Natalie Chlopecki is a graduate student starting her last year at Purdue University."
   avatar      : "/assets/images/bio-chlopecki.jpg"

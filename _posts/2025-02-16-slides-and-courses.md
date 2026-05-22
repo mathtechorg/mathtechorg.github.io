@@ -1,7 +1,7 @@
 ---
 title: PreTeXt for Courses and Slideshows
 tags: PreTeXt, slides, course-materials
-author: Oscar Levin
+author: levin
 ---
 
 Did you know that you can use PreTeXt to create revealjs slideshows?  

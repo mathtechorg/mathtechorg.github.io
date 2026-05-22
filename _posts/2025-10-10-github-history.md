@@ -1,7 +1,7 @@
 ---
 title: Getting Started with GitHub
 tags: GitHub version-control
-author: Steven Clontz
+author: clontz
 ---
 
 *This post is supported by National Science Foundation award [#2449139](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2449139).*

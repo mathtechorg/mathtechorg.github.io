@@ -1,7 +1,7 @@
 ---
 title: HTML vs PDF for screen readers
 tags: PreTeXt, accessibility, course-materials, videos
-author: Oscar Levin
+author: levin
 ---
 
 After my [last post](https://mathtech.org/2025/04/10/accessibility.html) about writing accessible course materials, someone asked whether the math in the HTML produced by PreTeXT really is any better than what you would get for a PDF when read by a screen reader.  Is it worth the effort? 

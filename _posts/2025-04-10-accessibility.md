@@ -3,7 +3,7 @@ title: Accessible Course Materials
 tags: PreTeXt, accessibility, course-materials, videos
 toc: true
 toc_sticky: true
-author: Oscar Levin
+author: levin
 ---
 
 **Update (2025-04-25)**: Added information about LaTeXML as another alternative for authoring.

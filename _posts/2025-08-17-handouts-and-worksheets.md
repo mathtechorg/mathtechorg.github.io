@@ -1,7 +1,7 @@
 ---
 title: Handouts and Worksheets in PreTeXt
 tags: PreTeXt Tutorial Features
-author: Oscar Levin
+author: levin
 ---
 
 We all know that [PreTeXt](https://pretextbook.org) is great for writing textbooks.  But did you know that it can also be used to create small, standalone course materials?  
