@@ -1,5 +1,21 @@
 # /_data/authors.yml
 
+site:
+  name: MathTech.org
+  bio: >- # this means to ignore newlines until "baseurl:"
+    Showcasing open-source technologies that innovate mathematics education and communication.
+  avatar : "/assets/images/mathtechorg-avatar.svg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:oscar.levin@unco.edu"
+    - label: "Bluesky"
+      icon: "fab fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/mathtech.org"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mathtechorg"
+
 Oscar Levin:
   name        : "Oscar Levin"
   bio         : "Oscar Levin is a professor of mathematical sciences at the University of Northern Colorado. He is the author of the OER book *Discrete Mathematics: an Open Introduction* and contributor to the PreTeXt authoring system."

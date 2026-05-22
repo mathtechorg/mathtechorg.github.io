@@ -1,6 +1,8 @@
 ---
 permalink: /events/
 title: "Events"
+author_profile: true
+author: site
 ---
 
 <div id="calendar-container">Loading calendar...</div>

@@ -1,6 +1,8 @@
 ---
 permalink: /prefigure/
 title: "Prefigure"
+author_profile: true
+author: site
 ---
 
 Since (MathTech.org's implementation of) Markdown supports inserting HTML
