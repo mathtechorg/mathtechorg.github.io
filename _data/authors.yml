@@ -181,7 +181,7 @@ Francesca Gandini:
 
 Anna Natalie Chlopecki:
   name        : "Anna Natalie Chlopecki"
-  bio         : "Anna Natalie Chlopecki is graduate student starting her last year at Purdue University.“
+  bio         : "Anna Natalie Chlopecki is a graduate student starting her last year at Purdue University."
   avatar      : "/assets/images/bio-chlopecki.jpg"
   links:
     - label: "Email"
@@ -195,4 +195,4 @@ Anna Natalie Chlopecki:
  #    url: "https://"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/anchlopecki/anchlopecki.github.io"
+      url: "https://github.com/anchlopecki"
