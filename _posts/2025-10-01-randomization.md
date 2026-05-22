@@ -1,7 +1,7 @@
 ---
 title: True Randomization in an Introductory Statistics course
 tags: PreTeXt R Inquiry
-author: Tien Chih
+author: chih
 ---
 
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>

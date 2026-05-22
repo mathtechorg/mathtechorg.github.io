@@ -11,7 +11,7 @@ To submit a blog entry, create a `md` file in the `_posts` directory.  Look for 
 Author bios in the sidebar are enabled for posts by default. For a single author, use:
 
 ```yaml
-author: Oscar Levin
+author: levin
 ```
 
 For multiple authors, use:

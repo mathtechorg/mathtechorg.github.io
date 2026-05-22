@@ -1,7 +1,7 @@
 ---
 title: Making Partially-Handwritten Slides Accessible
 tags: PreTeXt tutorial slides accessibility
-author: Mitch Keller
+author: keller
 comments: true
 ---
 

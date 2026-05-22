@@ -1,7 +1,7 @@
 ---
 title: Creating accessible diagrams with PreFigure
 tags: PreFigure diagrams accessibility PreTeXt
-author: David Austin
+author: austin
 comments: true
 ---
 

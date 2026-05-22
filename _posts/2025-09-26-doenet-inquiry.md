@@ -1,7 +1,7 @@
 ---
 title: Using Doenet Interactives to Facilitate Inquiry
 tags: PreTeXt Doenet Inquiry
-author: Steven Clontz
+author: clontz
 ---
 
 *This post describes work of the author funded by National Science Foundation awards [#2011807](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2011807) and [#2449139](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2449139).*

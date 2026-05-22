@@ -1,7 +1,7 @@
 ---
 title: "Save the Date: MathTech.org Virtual Workshop on Accessible Course Materials (May 2025)"
 tags: PreTeXt Accessibility Training
-author: Steven Clontz
+author: clontz
 ---
 
 On behalf of the [MathTech.org Team](/about/), I'm excited to announce

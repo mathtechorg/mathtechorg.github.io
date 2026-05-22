@@ -1,7 +1,7 @@
 ---
 title: Before Class with PreTeXt
 tags: PreTeXt Runestone Teaching
-author: Chrissy Safranski
+author: safranski
 ---
 
 As a student, I was frequently guilty of using math textbooks exclusively in order to complete homework problems.  If I didn't immediately know how to complete an assigned problem with what I'd learned in class, then I'd try to read the section and look for examples or theorems or other clues. If I still didn't know what to do, I would sometimes search in other textbooks I had access to, and I always thought I had hit the jackpot when my textbook's homework problem was another textbook's theorem, presented with proof. (Not so very different from today's students asking Google or ChatGPT.)  All of my learning took place in two periods of time: *during class* and *after class*.

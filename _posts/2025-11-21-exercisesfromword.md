@@ -1,7 +1,7 @@
 ---
 title: So, all your exercises are written in Word...
 tags: Word PreTeXt exercises scripts
-author: James Vranish
+author: vranish
 comments: true
 ---
 I'm a biochemistry instructor who has been working on writing an introductory chemistry textbook.  Now, as a user of math rather than a mathematician, my initial approach was to write my textbook in Word and later worry about getting it formatted for HTML and print forms.  My colleague, who is also one of mathtech.org's editors, had mentioned PreTeXt to me on several occasions, but with the stress of writing/revising/etc. her words basically went in one ear and right out the other.  That is...until it came time to try and move towards publication.  After a few minutes of sitting down with her and *actually* paying attention (sorry Chrissy), I quickly realized how amazingly powerful PreTeXt was for what I was trying to do.

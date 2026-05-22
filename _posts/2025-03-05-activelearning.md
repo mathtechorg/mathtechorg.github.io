@@ -1,7 +1,7 @@
 ---
 title: Supporting Active Learning with PreTeXt
 tags: PreTeXt
-author: Tien Chih
+author: chih
 ---
 
 While the benifits of using [PreTeXt](https://pretextbook.org) are numerous, one in particular that has been transformative in my own teaching is utilizing the html format of PreTeXt to embed interactive components which opens the door to a variety of potential active learning implementations.

@@ -1,7 +1,7 @@
 ---
 title: Funded and free opportunities with the Doenet OER community
 tags: Doenet OER communities workshop
-author: Steven Clontz
+author: clontz
 comments: true
 ---
 
