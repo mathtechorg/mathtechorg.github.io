@@ -36,6 +36,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: "3.1"
           bundler-cache: true
 
       - name: Build site
@@ -124,6 +125,7 @@ jobs:
         if: ${{ steps.token_check.outputs.has_token == 'true' }}
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: "3.1"
           bundler-cache: true
 
       - name: Build site
