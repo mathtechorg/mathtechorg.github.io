@@ -1,6 +1,3 @@
-{% assign authors = page.authors | default: page.author %}
-
-{% for author_key in authors %}
 {% assign author_data = site.data.authors[author_key] %}
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
@@ -245,4 +242,3 @@
     </ul>
   </div>
 </div>
-{% endfor %}

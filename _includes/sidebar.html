@@ -6,7 +6,8 @@
         {% include author-profile.html author_key=author_key %}
       {% endfor %}
     {% else %}
-      {% include author-profile.html %}
+      {% assign author_key = page.author %}
+      {% include author-profile.html author_key=author_key %}
     {% endif %}
   {% endif %}
   {% if page.sidebar %}
