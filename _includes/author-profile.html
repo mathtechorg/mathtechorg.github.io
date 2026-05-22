@@ -1,4 +1,4 @@
-{% assign author_data = site.data.authors[author_key] %}
+{% assign author_data = site.data.authors[author_key] | default: site.author %}
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   {% if author_data.avatar %}

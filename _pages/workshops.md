@@ -3,7 +3,6 @@ permalink: /workshops/
 title: "Workshops"
 layout: single
 author_profile: true
-author: site
 ---
 
 There is so much to learn, and so many opportunities to learn it.  Below we collect workshops and trainings that we know about.  Get in touch if you want yours added to our list.
