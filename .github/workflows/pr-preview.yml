@@ -21,7 +21,8 @@ jobs:
       contents: read
       deployments: write
     outputs:
-      preview_url: ${{ steps.cf.outputs.alias }}
+      preview_url: ${{ steps.cf.outputs.pages-deployment-alias-url }}
+      deployment_url: ${{ steps.cf.outputs.deployment-url }}
       has_token: ${{ steps.token_check.outputs.has_token }}
     steps:
       - name: Check Cloudflare token
@@ -37,7 +38,7 @@ jobs:
 
       - name: Checkout
         if: ${{ steps.token_check.outputs.has_token == 'true' }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Ruby
         if: ${{ steps.token_check.outputs.has_token == 'true' }}
@@ -53,14 +54,12 @@ jobs:
       - name: Publish to Cloudflare Pages
         id: cf
         if: ${{ steps.token_check.outputs.has_token == 'true' }}
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ${{ vars.CLOUDFLARE_PAGES_PROJECT }}
-          directory: _site
+          command: pages deploy _site --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT }} --branch=pr-${{ github.event.number }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: pr-${{ github.event.number }}
           wranglerVersion: "3"
 
   comment-preview:
@@ -73,16 +72,18 @@ jobs:
         env:
           RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           CLOUDFLARE_URL: ${{ needs.deploy-cloudflare-preview.outputs.preview_url }}
+          CLOUDFLARE_DEPLOYMENT_URL: ${{ needs.deploy-cloudflare-preview.outputs.deployment_url }}
           CLOUDFLARE_ENABLED: ${{ vars.CLOUDFLARE_PAGES_PROJECT != '' && vars.CLOUDFLARE_ACCOUNT_ID != '' && needs.deploy-cloudflare-preview.outputs.has_token == 'true' }}
           CLOUDFLARE_RESULT: ${{ needs.deploy-cloudflare-preview.result }}
         with:
           script: |
             const marker = "<!-- pr-preview-comment -->";
+            const previewUrl = process.env.CLOUDFLARE_URL || process.env.CLOUDFLARE_DEPLOYMENT_URL;
 
             const cloudflareLine = process.env.CLOUDFLARE_ENABLED === "true"
               ? (process.env.CLOUDFLARE_RESULT === "success"
-                ? (process.env.CLOUDFLARE_URL
-                  ? `- Hosted preview (Cloudflare Pages): [Open preview](${process.env.CLOUDFLARE_URL})`
+                ? (previewUrl
+                  ? `- Hosted preview (Cloudflare Pages): [Open preview](${previewUrl})`
                   : "- Hosted preview (Cloudflare Pages): deployed, but URL output was empty. Check deployment details.")
                 : `- Hosted preview (Cloudflare Pages): deployment did not succeed; check [workflow logs](${process.env.RUN_URL}).`)
               : "- Hosted preview (Cloudflare Pages): not configured (set repository vars/secrets; see README).";
