@@ -19,7 +19,7 @@ not aiming for an accessible PDF, but instead aiming to help authors create acce
 
 I believe it's because it's just **not possible to create accessible PDFs**.
 
-Accessibility is not a trivial concern, and I do not claim to be an accessibility expert myself.
+Accessibility is not a trivial concern.
 But I do my best to help professionals in the mathematical sciences create accessible documents,
 particularly those affected by
 [DoJ's April 2027 deadline for public institutions](https://www.ada.gov/resources/2024-03-08-web-rule/)
