@@ -44,25 +44,22 @@ even if the user zooms in to read text at the size they can visually perceive.
 
 How do PDFs meet this standard? Well, in practice, they simply don't! Below I'll illustrate a PDF recently published
 in the open access [Bulletin of the AMS](https://pubs.ams.org/journals/bull),
-and a zoomed-in (via the most popular web browser Chrome) PDF that fails to meet this standard.
+and a 300% zoomed-in (via the most popular web browser Chrome) PDF that fails to meet this standard.
 
-![PDF screenshot with all text in the viewport](/assets/images/20260611/image.png)
+![PDF screenshot with all text in the viewport](/assets/images/20260611/image1.png)
 
 ![further zoomed PDF of the same content that does not reflow content to fit the viewport](/assets/images/20260611/image2.png)
 
-Now, it's technically possible for readers to spend signficant money on proprietary Adobe software that reflows PDF output. 
+Now, it's technically possible for readers to spend signficant money on proprietary Adobe software that reflows PDF output
+(well, to [mixed success](https://mn.gov/mnit/media/blog/?id=38-584554)).
 But meanwhile, any HTML file will immediately and trivially meet this simple standard.
-To illustrate this point, let's compare the content of the
-Republican National Convention homepage at a standard zoom setting with a zoomed-in view.
+To illustrate this point, let's compare the exact same content published as HTML instead.
 
-![standard zoom setting for RNC.org](/assets/images/20260611/image3.png)
+![standard zoom setting for article](/assets/images/20260611/image3.png)
 
-![significantly zoomed in view of RNC.org; all content reflows to fit the device viewport](/assets/images/20260611/image4.png)
+![significantly zoomed in view of article; all content reflows to fit the device viewport](/assets/images/20260611/image4.png)
 
-Nothing special has been arranged to ensure the accessibility
-of the RNC homepage, other than content happened to be
-authored in HTML rather than
-print-focused PDF. In a nutshell, this is the issue: PDFs
+In a nutshell, this is the issue: PDFs
 are not written to be accessible content for all audiences.
 Instead, they are designed for creating print-ready documents
 for fully sighted readers.
