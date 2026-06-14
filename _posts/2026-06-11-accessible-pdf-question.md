@@ -58,10 +58,10 @@ To illustrate this point, let's compare the exact same content published as HTML
 
 ![significantly zoomed in view of article; all content reflows to fit the device viewport](/assets/images/20260611/image4.png)
 
-In a nutshell, this is the issue: PDFs
-are not written to be accessible content for all audiences.
-Instead, they are designed for creating print-ready documents
-for fully sighted readers.
+In a nutshell, this is the issue: PDFs are 
+**not intended to communicate content to all audiences**.
+Instead, they are
+**primarily focused on descrbing print-first documents for fully sighted readers**.
 
 So what can we do to help our readers? The first and easiest
 step is to assume that all PDF output is inaccessible, and
