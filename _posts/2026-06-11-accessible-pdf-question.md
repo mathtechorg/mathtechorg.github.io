@@ -9,30 +9,29 @@ comments: true
 A frequent question our community is asked: "How do I make an accessible PDF?"
 
 And, even setting aside the large commercial incentives for certain businesses to make accessible PDFs viable,
-there is a huge community working towards this goal! I have a huge respect for professionals
+there is a huge community working towards this goal! I have so much respect for professionals
 like [Deyan Ginev](https://kwarc.info/people/dginev/), codeveloper of [LaTeXML](https://github.com/brucemiller/LaTeXML/)
 and instrumental in the [ar5iv project](https://ar5iv.labs.arxiv.org/) converting arXiv preprints
 to accessibile HTML.
 
 But that's just it -- why are the most significant projects aiming to make accessible scholarly STEM documents
-not aiming for an accessible PDF, but instead aiming to help authors create accessible HTML?
+aiming not for an accessible PDF, but instead aiming to help authors create accessible HTML?
 
-I believe it's because it's just **not possible to create accessible PDFs**.
+I believe it's because it's **just not possible to create accessible PDFs**.
 
-Accessibility is not a trivial concern.
-But I do my best to help professionals in the mathematical sciences create accessible documents,
-particularly those affected by
+Accessibility is not a trivial concern. But like many in our community, I do my best to help professionals
+in the mathematical sciences create accessible documents, particularly those affected by
 [DoJ's April 2027 deadline for public institutions](https://www.ada.gov/resources/2024-03-08-web-rule/)
 to ensure all web content meets meet WCAG 2.1, Level AA requirements.
 
 For working professionals in the mathematical sciences, it's not trivial or reasonable to become
-an expert in accessibility. So how can we ensure we're doing not meeting our legal obligations, but also
-ensureing we are serving our readers as best we can?
+an expert in accessibility. So how can we ensure we're doing not just meeting our legal obligations, but also
+ensuring we are serving all of our readers as best we can?
 
 My advice is to connect with communities and technologies that help you author and disseminate
 semantic and accessible HTML-format mathematical documents. As a co-creator of [PreTeXt.Plus](https://pretext.plus)
 I obviously would suggest trying us out, but more crucially I would emphasize the importance of
-choosing any solution that targets accessible HTML, and not "accessible PDF".
+choosing any solution that targets *accessible HTML*, and not "accessible PDF".
 
 While initiatives like the [LaTeX Tagged PDF Project](https://latex3.github.io/tagging-project/) attempt to
 help authors create mathematical PDFs that are as accessible as possible, I'm very concerned that this
@@ -66,9 +65,10 @@ for fully sighted readers.
 
 So what can we do to help our readers? The first and easiest
 step is to assume that all PDF output is inaccessible, and
-then to look towards solutions that publish HTML instead.
+then to look toward solutions that publish HTML instead.
 While writing HTML is not sufficient to guarantee
 accessibility (nothing, not even AI, can replace the human
 responsibility to author useful alt text for graphical
-information), choosing HTML over PDF is an important first
-step to serving all readers.
+information), choosing semantic formats such as HTML over
+visual-first outputs like PDF is an important first
+step to serving all readers through universal design.
