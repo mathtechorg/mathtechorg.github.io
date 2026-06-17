@@ -13,9 +13,11 @@ Presented by Mitch Keller (University of Wisconsin-Madison) and Oscar Levin (Uni
 
 **When**: June 23, 24, and 25 from 10:00 am to 12:00 pm EDT
 
-**Where**: Virtual (on zoom)
+**Where**: Virtual, using this [Zoom link](https://unco.zoom.us/j/99958482101?pwd=2aZBFGwm2cq5pSkzGocttgVBdL9i1z.1)
 
-**Registration**: Information coming soon.
+**Registration**: Register for the workshop through this [MAA registration link](https://portal.maa.org/s/community-event?id=a1mVm000001naxpIAA)
+
+
 
 ### Workshop content
 
@@ -25,3 +27,7 @@ The first workshop session will focus on the big picture, including addressing t
 The second workshop session will help instructors use free online tools to get started putting together a collection of course materials. Time will be devoted to learning how to automate a significant amount of the work involved in converting course materials from LaTeX to PreTeXt as well as how to author new materials such as course notes (including fill-in style notes to use during class), worksheets, and handouts in PreTeXt.
 
 The final workshop session will allow participants to continue learning about tools introduced on the first two days. Topics will include using PreTeXt for quizzes and exams (and their solutions), using the PreFigure package that integrates with PreTeXt to create high-quality mathematical diagrams that both look great and can be embossed for braille readers, and using PreTeXt to develop collections of slides that are available as HTML documents that meet accessibility requirements.
+
+### Material and links for participants
+
+Nothing is needed prior to the workshop.  We will post links to workshop materials below as they become relevant.
