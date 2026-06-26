@@ -24,7 +24,9 @@ how to get started as a contributor to the
 using just your web browser (no installs!). The recording is included
 below, and Melissa's notes are copied below as well.
 
-
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/zUsyBq_wUvU">
+</iframe>
 
 If you have questions, come join a [drop-in Zoom call](/events/)
 to connect with a community member! We're always excited to get more
