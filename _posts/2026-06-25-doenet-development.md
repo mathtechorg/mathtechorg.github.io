@@ -18,11 +18,13 @@ but there's still so much left to do (e.g. as of writing,
 I'm craving the ability to find the RREF of a matrix to write
 activities for my linear algebra courses).
 
-So my friend Melissa and I put together a quick workshop today on
+So my friend [Melissa Lynn][0] and I put together a quick workshop today on
 how to get started as a contributor to the
 [Doenet codebase on GitHub](https://github.com/Doenet/DoenetML)
 using just your web browser (no installs!). The recording is included
 below, and Melissa's notes are copied below as well.
+
+[0]: https://wp.stolaf.edu/mscs/mscs-faculty-staff-listing/#:~:text=and%20Computer%20Science-,Melissa%20Lynn,-Assistant%20Professor%20of
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/zUsyBq_wUvU">
