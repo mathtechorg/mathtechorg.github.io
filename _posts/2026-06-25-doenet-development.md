@@ -26,9 +26,7 @@ below, and Melissa's notes are copied below as well.
 
 [0]: https://wp.stolaf.edu/mscs/mscs-faculty-staff-listing/#:~:text=and%20Computer%20Science-,Melissa%20Lynn,-Assistant%20Professor%20of
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/zUsyBq_wUvU">
-</iframe>
+<iframe src="https://www.youtube.com/embed/zUsyBq_wUvU"></iframe>
 
 If you have questions, come join a [drop-in Zoom call](/events/)
 to connect with a community member! We're always excited to get more
