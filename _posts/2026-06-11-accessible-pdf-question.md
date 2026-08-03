@@ -1,5 +1,5 @@
 ---
-title: Accessibile PDFs?
+title: Accessible PDFs?
 tags: accessibility pdf html
 authors: 
 - clontz
@@ -12,7 +12,7 @@ And, even setting aside the large commercial incentives for certain businesses t
 there is a huge community working towards this goal! I have so much respect for professionals
 like [Deyan Ginev](https://kwarc.info/people/dginev/), codeveloper of [LaTeXML](https://github.com/brucemiller/LaTeXML/)
 and instrumental in the [ar5iv project](https://ar5iv.labs.arxiv.org/) converting arXiv preprints
-to accessibile HTML.
+to accessible HTML.
 
 But that's just it -- why are the most significant projects aiming to make accessible scholarly STEM documents
 aiming not for an accessible PDF, but instead aiming to help authors create accessible HTML?
