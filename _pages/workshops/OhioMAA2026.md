@@ -31,3 +31,5 @@ The final workshop session will allow participants to continue learning about to
 ### Material and links for participants
 
 Nothing is needed prior to the workshop.  We will post links to workshop materials below as they become relevant.
+
+- [Image Description Task](/images/OhioMAA2026/ImageDescriptionTask.pdf) - A task to practice writing image descriptions for mathematical diagrams.  This will be used in the first workshop session.
